@@ -24,7 +24,6 @@
 请填写。
 
 ## 4. 配置管理与协作过程
-
 ### 4.1 配置管理目标与原则
 
 **配置管理目标**：
@@ -45,7 +44,7 @@
 
 - **main 分支**：默认分支，存放稳定的生产版本代码
 - **dev 分支**：主开发分支，包含最新的开发代码
-- **feature-* 分支**：功能开发分支，从 dev 分支创建，完成后合并回 dev
+- **feature-* 分支**：功能开发分支，从 main 分支创建，完成后合并回 dev
 
 **实际创建的功能分支**：
 - `feature-charter`：项目章程功能模块
@@ -100,8 +99,8 @@ type(scope): description
 
 在本次实验中，团队成员完成了以下配置管理相关任务：
 
-1. **分支管理实践**：每位成员创建了独立的 feature 分支（`feature-charter`、`feature-config-plan`、`feature-schedule`、`feature-summary`、`feature-wbs`），完成开发后配置管理员合并到 dev 分支，冲突解决练习里直接写学会了解决冲突的方法
-2. **冲突解决练习**：在 `feature-config-plan` 分支合并时遇到代码冲突，学习了使用 VS Code 解决冲突的方法
+1. **分支管理实践**：每位成员创建了独立的 feature 分支（`feature-charter`、`feature-config-plan`、`feature-schedule`、`feature-summary`、`feature-wbs`），完成开发后配置管理员合并到 dev 分支
+2. **冲突解决练习**：学会了解决冲突的方法
 3. **分支协作**：团队成员并行开发各自的功能模块，通过微信沟通协调开发进度
 4. **文档审核**：项目经理审核文档，确保文档规范、完整
 
